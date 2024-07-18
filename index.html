@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishal || Home</title>
+  <meta name="title" content="Rishal || Home">
+  <meta name="description" content="Official Portfolio Website of Rishal, completed higher secondory">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="" type="icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="nav" id="id">
+    <div class="nav-center">
+
+
+      <div class="nav-header">
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div>
+        <ul class="nav-links">
+          <li>
+            <a href="#index">home</a> 
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#blogs">blogs</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <ul class="sidebar-links">
+        <li>
+          <a href="#index" onclick="getElementById('close-btn').click()">home</a>
+        </li>
+        <li>
+          <a href="#about" onclick="getElementById('close-btn').click()">about</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
+        </li>
+        <li>
+          <a href="#blogs" onclick="getElementById('close-btn').click()">blogs</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="getElementById('close-btn').click()">contact</a>
+        </li>
+      </ul>
+
+      <ul class="social-icons">
+        <li>
+          <a href="https://twitter.com/mirshadkvx" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer"
+            class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>i'm Rishal</h1>
+        <h4>Full Stack Web Developer</h4>
+        <a href="#contact" class="btn hero-btn">Contact me</a>
+        <!-- social icons -->
+        <ul class="social-icons hero-icons">
+          <li>
+            <a href="" target="_blank" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="hero-img">
+        <img src="images/my image.jpg" class="hero-photo" loading="lazy" alt="Rishal">
+      </article>
+    </div>
+  </header>
+
+
+  <section class="section about" id="about">
+    <div class="section-center about-center">
+      <!-- about img -->
+      <article class="about-img">
+        <img src="images/my image 2.jpg" class="hero-photo" loading="lazy" alt="Rishal">
+      </article>
+
+      <article class="about-info">
+
+        <div class="section-title about-title">
+          <h2>about</h2>
+          <div class="underline"></div>
+        </div>
+
+        <p>
+          Hey, My name is Rishal and I am completed higher secondary (Commerce)
+        </p>
+        <p>
+          My field of Interests are programming.
+        </p>
+        <a href="#connect" class="btn">Connect with me</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">Projects</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+         
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/star-clone.png" loading="lazy" alt="weather-app project">
+          </div>
+          <div>
+            <h2>Starbucks homepage clone</h2>
+            <div class="title">Tech used html and css</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">It is a homepage clone of starbucks.
+          </div>
+          <div class="actions">
+            <a href="https://riishaluo.github.io/starbucks/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com/Riishaluo/starbucks" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/parleimg.png" loading="lazy" alt="Dictionary project">
+          </div>
+          <div>
+            <h2>Parle Agro Official website clone</h2>
+            <div class="title">Tech Used - Html and CSS</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">its clone website for first week task static website making.
+          </div>
+          <div class="actions">
+            <a href="https://riishaluo.github.io/frooti/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+
+  </section>
+
+  <section class="section skills" id="skills">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>skills</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center skills-center">
+      <article>
+        <h3>Languages</h3>
+        <div class="skill-box-1">
+          <div>
+            <img class="skill-icn" src="images/mongodb-svgrepo-com.svg" loading="lazy" alt="Mongo db">
+            <p class="skill-name">Mongodb</p>
+          </div>
+          <div>
+            <img class="skill-icn" src="images/react.svg" loading="lazy" alt="React">
+            <p class="skill-name">React</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h3>Languages</h3>
+        <div class="skill-box-2">
+          <div>
+            <img class="skill-icn" style="margin-left: 30px;" src="images/express.png" loading="lazy" alt="Express">
+            <p class="skill-name">Express</p>
+          </div>
+          <div>
+            <img class="skill-icn " style="margin-left: 50px;" src="images/node-js.svg" loading="lazy" alt="nodejs">
+            <p class="skill-name">Node js</p>
+          </div>
+
+        </div>
+      </article>
+      <article>
+        <h3>Tools</h3>
+        <div class="skill-box-3">
+          <div>
+            <img class="skill-icn" style="margin-left: 30px;" src="images/vscode.svg" loading="lazy" alt="vscode">
+            <p class="skill-name">Vs code</p>
+          </div>
+          <div>
+            <img class="skill-icn" style="margin-left: 50px;" src="images/git.svg" loading="lazy" alt="git">
+            <p class="skill-name">Git</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section timeline">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">timeline</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center timeline-center">
+      <!-- single timeline item -->
+
+      <article class="timeline-item">
+        <h4> July - 2024</h4>
+        <p>
+          I joined brocampil. to change my life
+        </p>
+        <span class="number"> 3 </span>
+      </article>
+
+      <article class="timeline-item">
+        <h4>2022-2023</h4>
+        <p>I never try this coding background . Then i decided to
+          come after plus two in brototype.
+        </p>
+        <span class="number"> 2 </span>
+      </article>
+
+      <article class="timeline-item">
+        <h4>2023</h4>
+        <p>On the first i watched and learned C programming with the help of Brototype .
+        </p>
+        <span class="number"> 1 </span>
+      </article>
+
+    </div>
+  </section>
+  <!--end of  timeline -->
+  <!-- blog -->
+  <section class="section blog" id="blogs">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>blog</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center">
+      <!-- single article -->
+      <div class="container">
+
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img src="images/y8zc4pnsyua3jq42e2xt.webp" loading="lazy" alt="Blog cover">
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Semantic HTML And Why Does it Matter </h4>
+              <p>
+                Do you use a div tag for enclosing every significant section of your webpage and are tired of
+                maintaining the whole codebase afterward
+              </p>
+              <div class="user">
+                <img src="" loading="lazy" alt="">
+                <div class="user-info">
+                  <h5>Rishal</h5>
+                  <small>Sept 3</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img src="https://getwallpapers.com/wallpaper/full/3/d/d/1090151-beautiful-cool-tech-backgrounds-2560x1440.jpg" loading="lazy" alt="Blog cover">
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Non semantic HTML and why does  </h4>
+              <p>
+                Non-semantic HTML lacks meaning; hampers accessibility, SEO, and maintainability.
+              </p>
+              <div class="user">
+                <img src="" loading="lazy" alt="">
+                <div class="user-info">
+                  <h5>Rishal</h5>
+                  <small>Sept 3</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img src="https://getwallpapers.com/wallpaper/full/3/b/f/1090058-cool-tech-backgrounds-1920x1080-for-computer.jpg" loading="lazy" alt="Blog cover">
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>What is a HTML attribute</h4>
+              <p>
+                  Attributes provide additional information about HTML elements and behavior.
+              </p>
+              <div class="user">
+                <img src="" loading="lazy" alt="">
+                <div class="user-info">
+                  <h5>Rishal</h5>
+                  <small>Sept 3</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-card">
+      <div class="contact-desc">
+        <h6 class="primary-text">Contact Me</h6>
+      </div>
+      <form action="https://script.google.com/macros/s/AKfycbzTn0HP0QZIFilkQKHxjwiROa2hjG3iQ_x3gS9BZqcsUDuecy0Z5nyXdOC28iQpNhYn/exec"  id="submit-form" class="contact-form">
+        <input type="hidden" name="access_key" value="4a08f935-81b4-49f1-87a9-d0e8fa173751">
+        <input type="text" name="name" placeholder="Your name" id="contact-name" onkeyup="validateName()" class="contact-input" required>
+        <span id="name-error"></span>
+        <input type="email" name="email" placeholder="Your email" id="contact-email" onkeyup="validateEmail()" class="contact-input" required>
+        <span id="email-error"></span>
+        <textarea name="message" placeholder="How can we help you?" id="contact-message" onkeyup="validateMessage()" class="contact-input"
+          required></textarea>
+          <span id="message-error"></span>
+        <button onclick="return validateForm()" type="submit" class="contact-button primary-text">Send Message</button>
+        <span id="submit-error"></span>
+      </form>
+    </div>
+  </section>
+  <footer class="footer" id="connect">
+    <p>© <span id="date"></span> Rishal
+    </p>
+  </footer>
+
+ <script src="valid.js"></script>
+ <script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbzTn0HP0QZIFilkQKHxjwiROa2hjG3iQ_x3gS9BZqcsUDuecy0Z5nyXdOC28iQpNhYn/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+
+</body>
+
+</html>
